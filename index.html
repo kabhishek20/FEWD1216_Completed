@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sizing Items in CSS</title>
+</head>
+
+<body>
+
+    <!-- ------------------------------------------------Set my font size to 30 pixel units ------------------------------------------------->
+    <p id="heading">Sizing items in CSS</p>
+    <!-- ----------------------------------------------- Set my width as 80% of the screen -------------------------------------------------->
+    <p id="about">HTML Elements have a natural size, set before they are affected by any CSS. A straightforward example
+        is an image. An image file contains sizing information, described as its intrinsic size. This size is determined
+        by the image itself, not by any formatting we happen to apply. <br>If you place an image on a page and do not
+        change its height or width, either by using attributes on the img tag or else by CSS, it will be displayed using
+        that intrinsic size. </p>
+    <br>
+
+    <!------------------------------------------------------- Set me to a width of 80% ------------------------------------------------------->
+    <hr class="linebreak">
+
+    <div class="subheading_div">
+        <p class="subheading">Image with intrinsic size</p>
+        <!-- ---------------------------------Add an image from the img folder with size to be intrinsic------------------------------------->
+        <img src="img/circle.png" alt="">
+        <p class="subheading">Empty div</p>
+        <!-- ------------------------------------Create an empty div with a solid border of 2px and white in color------------------------------>
+        <div id="emptydiv"></div>
+        <br>
+        <hr class="linebreak">
+
+        <div class="wrapper">
+            <!-- ----------------------------------set the width and height property of box div as 200px and 150px--------------------------------- -->
+            <div class="box"></div>
+            <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate, natus aliquid
+                sequi repudiandae totam iusto hic voluptates molestias modi consequatur alias. Doloribus aut asperiores
+                molestiae quod? Saepe, modi aspernatur. </div>
+        </div>
+        <br><br><br>
+        <hr class="linebreak">
+
+        <div class="wrapper">
+            <!-- ---------------------------------set the min height and width propety of box 1 div as 150px and 200px -------------------------------->
+            <div class="box1"></div>
+            <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate, natus aliquid
+                sequi repudiandae totam iusto hic voluptates molestias modi consequatur alias. Doloribus aut asperiores
+                molestiae quod? Saepe, modi aspernatur. </div>
+        </div>
+    </div>
+</body>
+
+</html>
