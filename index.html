@@ -11,47 +11,76 @@
 
 <body>
 
-    <!-- ------------------------------------------------Set my font size to 30 pixel units ------------------------------------------------->
-    <p id="heading">Sizing items in CSS</p>
-    <!-- ----------------------------------------------- Set my width as 80% of the screen -------------------------------------------------->
-    <p id="about">HTML Elements have a natural size, set before they are affected by any CSS. A straightforward example
-        is an image. An image file contains sizing information, described as its intrinsic size. This size is determined
-        by the image itself, not by any formatting we happen to apply. <br>If you place an image on a page and do not
-        change its height or width, either by using attributes on the img tag or else by CSS, it will be displayed using
-        that intrinsic size. </p>
-    <br>
-
-    <!------------------------------------------------------- Set me to a width of 80% ------------------------------------------------------->
-    <hr class="linebreak">
-
-    <div class="subheading_div">
-        <p class="subheading">Image with intrinsic size</p>
-        <!-- ---------------------------------Add an image from the img folder with size to be intrinsic------------------------------------->
-        <img src="img/circle.png" alt="">
-        <p class="subheading">Empty div</p>
-        <!-- ------------------------------------Create an empty div with a solid border of 2px and white in color------------------------------>
-        <div id="emptydiv"></div>
-        <br>
-        <hr class="linebreak">
-
-        <div class="wrapper">
-            <!-- ----------------------------------set the width and height property of box div as 200px and 150px--------------------------------- -->
-            <div class="box"></div>
-            <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate, natus aliquid
-                sequi repudiandae totam iusto hic voluptates molestias modi consequatur alias. Doloribus aut asperiores
-                molestiae quod? Saepe, modi aspernatur. </div>
-        </div>
-        <br><br><br>
-        <hr class="linebreak">
-
-        <div class="wrapper">
-            <!-- ---------------------------------set the min height and width propety of box 1 div as 150px and 200px -------------------------------->
-            <div class="box1"></div>
-            <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate, natus aliquid
-                sequi repudiandae totam iusto hic voluptates molestias modi consequatur alias. Doloribus aut asperiores
-                molestiae quod? Saepe, modi aspernatur. </div>
-        </div>
+   <!-- Navigation Bar -->
+<navbar>
+    <p class="text-logo">Amazon</p>
+    <ul class="big-screen-nav">
+      <li>
+        <a href="#">Home</a>
+        <a href="#">Store</a>
+        <a href="#">Shopping cart</a>
+        <a href="#">Try Prime</a>
+        <button class="signin-button">Sign in</button>
+        <button class="login-button">Login</button>
+      </li>
+    </ul>
+    
+    
+  </navbar>
+  <!-- Navigation Bar ends -->
+  
+  <!-- Hero Section -->
+  <section class="label">
+    <h1>New collection</h1>
+  </section>
+  <img src="img/shoes-model-dirt-brown-young.jpg" alt="" style="width:95vw;margin-left: 20px;">
+  
+  <!-- Browsing History -->
+  <section class="label">
+    <h1>Browsing History</h1>
+  </section>
+  <section class="browsing-history">
+    <div class="item">
+      <img src="img/img1.jfif" alt="" class="item-image">
+      <p class="item-label">Technology</p>
     </div>
+     <div class="item">
+      <img src="img/img2.jfif" alt="" class="item-image">
+      <p class="item-label">Video Games</p>
+    </div>
+     <div class="item">
+      <img src="img/img3.jfif" alt="" class="item-image">
+      <p class="item-label">Movies</p>
+    </div>
+    <div class="item">
+      <img src="img/img4.jfif" alt="" class="item-image">
+      <p class="item-label">Accessories</p>
+    </div>
+  </section>
+  <!-- Browsing History ends -->
+  
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <section class="links">
+        <ul>
+        <li><h1>Get to Know Us</h1></li>
+        <li><a>Careers</a></li>
+      </ul>
+  
+      <ul>
+        <li><h1>Make money with Us</h1></li>
+        <li><a>Sell on Amazon</a></li>
+      </ul>
+  
+      <ul>
+        <li><h1>Amazon Payment Products</h1></li>
+        <li><a>Shop with Points</a></li>
+      </ul>
+    </section>
+    <h1 class="footer-text">Amazon.com</h1>
+  </footer>
+  <!-- Footer ends-->
 </body>
 
 </html>
